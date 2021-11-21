@@ -13,7 +13,7 @@ int main()
             printf("%d. Задание %d\n", i, i);
         printf("6. Выход\n>>> ");
         ch = getchar();
-        printf("\e[1;0H\e[2J");
+        printf("\e[1;1H\e[2J");
         switch (ch)
         {
             case '1':
@@ -50,6 +50,6 @@ int main()
         getchar();
         printf("\n\nНажмите Enter для перехода в меню...");
         getchar();
-        printf("\e[1;0H\e[2J");
+        printf("\e[1;1H\e[2J");
     }
 }
